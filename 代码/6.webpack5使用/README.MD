@@ -54,7 +54,6 @@ export { inner };
 import * as module from './module';
 console.log(module.inner.a);
 ```
-
 在生产环境中, inner 模块暴露的 `b` 会被删除
 
 2. webpack 现在能够多个模块之前的关系
